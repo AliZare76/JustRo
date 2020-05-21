@@ -1,0 +1,282 @@
+@font-face {
+    font-family: shabnam;
+    src: url(../font/Shabnam-FD.ttf);
+
+}
+
+*:not(i) {
+    font-family: shabnam;
+
+}
+
+body {
+    direction: rtl;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav p {
+    width: 70px;
+    height: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #007f62;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .small-nav {
+        height: 80px;
+        box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .search {
+        position: absolute;
+        left: 23px;
+        width: 24px;
+        height: 25px;
+        background-color: #00a680;
+    }
+
+    .logo-container {
+        background-image: url(../assets/009_logo_Bg.svg);
+        height: 192px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo-con2 {
+        position: absolute;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 73px;
+    }
+
+    .camel-logo {
+        width: 72px;
+        height: 72px;
+    }
+
+    div .logo-container p {
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #007f62;
+    }
+
+    h2 {
+        font-weight: bold;
+        color: #007f62;
+    }
+
+    h3 {
+        color: #007f62;
+    }
+
+    .Rectangle-2 {
+        width: 70px;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: #00a680;
+    }
+
+    .woman {
+        bottom: -20px;
+        left: 10px;
+    }
+
+    .womansvg {
+        width: 239px;
+        height: 350px;
+    }
+
+    .city {
+        background-image: url(../assets/002_slide1_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        background-position: center;
+        height: 300px;
+
+    }
+
+    .h1-active {
+        width: 24px;
+        height: 12px;
+        border-radius: 6px;
+        background-color: #ff7043;
+        margin-right: 18px;
+        margin-top: 12px;
+
+    }
+
+    .h2 {
+        width: 12px;
+        height: 12px;
+        background-color: #bdbdbd;
+        border-radius: 6px;
+        margin-right: 18px;
+        margin-top: 12px;
+    }
+
+    .wave {
+        background-image: url(../assets/011_bg_wave.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 142px;
+        background-position: -280px;
+
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: scroll;
+        padding: 0px;
+    }
+
+    .icon-border {
+        width: 85px;
+        height: 85px;
+        border: #00f4bd 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .circle {
+        filter: invert(81%) sepia(51%) saturate(4288%) hue-rotate(115deg) brightness(102%) contrast(104%);
+        width: 63px;
+        height: 63px;
+    }
+
+    .phone {
+        background-image: url(../assets/012_phonemockup.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 587px;
+
+    }
+
+    .phone-icones {
+
+        width: 265px;
+        height: 502px;
+    }
+
+    .dl-bg {
+        border-radius: 15px;
+        box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+        background-color: #ffffff;
+        height: 1000px;
+
+    }
+
+    .field {
+        width: 320px;
+        border-radius: 25px;
+        border: solid 1px #eeeeee;
+        background-color: #fafafa;
+        box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+    }
+
+    input[type="text"]:hover {
+        outline: none;
+        box-shadow: 0px 0px 5px #61C5FA;
+        border: 1px solid #5AB0DB;
+    }
+
+    .icon-bg {
+        width: 100%;
+        height: 60px;
+        border-radius: 25px;
+        box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+        background-image: linear-gradient(to top, #00a680, #00f4bd);
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .amadegi-bg {
+        background-image: url(../assets/023_amadegisafar2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+
+    .amade-sho {
+        width: 160px;
+        height: 50px;
+        border-radius: 25px;
+        box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+        background-image: linear-gradient(to top, #e35325, #ff8a65);
+
+    }
+
+    .last-bg {
+        background-color: #e1fff8;
+    }
+
+    .sabt {
+
+        width: 140px;
+        height: 50px;
+        border-radius: 25px;
+        box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+        background-image: linear-gradient(to top, #e35325, #ff8a65);
+
+    }
+    .wave-bg{
+        background-image : url(../assets/025_footer_Bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 360px;
+        background-position : -230px
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .hambergur {
+        display: none;
+    }
+
+    i .search {
+        display: none;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #007f62;
+    }
+}
